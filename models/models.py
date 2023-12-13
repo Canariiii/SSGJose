@@ -26,7 +26,7 @@ class ssgjose_proyectos(models.Model):
      _name = 'project.project'
      _inherit = "project.project"
 
-     company = fields.Many2one("ssgjose.hiring_company",string="Comapmy Name",required=True,ondelete="cascade")
+     company = fields.Many2one("ssgjose.hiring_company",string="Company Name",required=True,ondelete="cascade")
 
 class ssgjose_tareas(models.Model):
      _name = 'project.task'
