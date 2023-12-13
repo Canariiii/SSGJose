@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<odoo>
+  <data>
+
+    <record model="ir.actions.report" id="ssgjose.hiring_comapny_report">
+      <field name="name">Report</field>
+      <field name="model">ssgjose.hiring_company</field>
+      <field name="report_type">qweb-html</field>
+      <field name="report_name">ssgjose.hiring_company_report_template</field>
+      <field name="report_file">ssgjose.hiring_company_report_template</field>
+      <field name="binding_model_id" ref="model_ssgjose_hiring_company"/>
+      <field name="binding_type">report</field>
+    </record>
+
+  </data>
+</odoo>

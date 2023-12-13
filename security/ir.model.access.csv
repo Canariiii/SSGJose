@@ -1,0 +1,16 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_ssgjose_hiring_company_admin,ssgjose.hiring_company.admin,model_ssgjose_hiring_company,ssgjose.admin,1,1,1,1
+access_project_project_admin,project.project.admin,project.model_project_project,ssgjose.admin,1,1,1,1
+access_project_task_admin,project.task.admin,project.model_project_task,ssgjose.admin,1,1,1,1
+
+access_ssgjose_hiring_company_project_boss,ssgjose.hiring_company.project_boss,model_ssgjose_hiring_company,ssgjose.project_boss,1,1,1,1
+access_project_project_project_boss,project.project.project_boss,project.model_project_project,ssgjose.project_boss,1,1,1,1
+access_project_task_project_boss,project.task.project_boss,project.model_project_task,ssgjose.project_boss,1,1,1,1
+
+access_ssgjose_hiring_company_analist,ssgjose.hiring_company.analist,model_ssgjose_hiring_company,ssgjose.analist,1,0,0,0
+access_ssgjose_proyectos_analist,project.project.analist,project.model_project_project,ssgjose.analist,1,0,0,0
+access_project_task_analist,project.task.analist,project.model_project_task,ssgjose.analist,1,1,1,1
+
+access_ssgjose_hiring_company_programmer,ssgjose.hiring_company.programmer,model_pssgjose_hiring_company,ssgjose.programmer,0,0,0,0
+access_project_project_programmer,project.project.programmer,project.model_project_project,ssgjose.programmer,0,0,0,0
+access_project_task_programmer,project.task.programmer,project.model_project_task,ssgjose.programmer,1,1,0,0

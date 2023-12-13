@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <!-- admin ssgjose -->
+    <record id="admin" model="res.groups">
+      <field name="name">ssgjose/admin</field>
+      <field name="comment">Admin profile</field>
+    </record>
+    <!-- project_boss ssgjose -->
+    <record id="project_boss" model="res.groups">
+      <field name="name">ssgjose/project boss</field>
+      <field name="comment">Project boss profile</field>
+    </record>
+    <!-- analist ssgjose -->
+    <record id="analist" model="res.groups">
+      <field name="name">ssgjose/analist</field>
+      <field name="comment">Analist profile</field>
+    </record>
+    <!-- programmer ssgjose -->
+    <record id="programmer" model="res.groups">
+      <field name="name">ssgjose/programmer</field>
+      <field name="comment">Programmer profile</field>
+    </record>
+  </data>
+</odoo>
