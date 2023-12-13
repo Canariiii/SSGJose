@@ -11,7 +11,7 @@
           <field name="email" />
           <field name="phone" />
           <field name="employees" />
-          <field name="company_size" groups="ssgjose.admin, ssgjose.project_boss, ssgjose.analist"/>
+          <field name="company_size" groups="ssgjose.admin, ssgjose.project_boss, ssgjose.analist" />
         </tree>
       </field>
     </record>
@@ -26,7 +26,7 @@
             <field name="email" />
             <field name="phone" />
             <field name="employees" />
-            <field name="company_size" groups="ssgjose.admin, ssgjose.project_boss, ssgjose.analist"/>
+            <field name="company_size" groups="ssgjose.admin, ssgjose.project_boss, ssgjose.analist" />
             <field name="project" />
           </group>
         </form>
@@ -67,15 +67,15 @@
 
     <!-- Submenu -->
     <menuitem name="hiring_company" id="ssgjose.hiring_company_menu"
-      parent="ssgjose.menu_root" 
+      parent="ssgjose.menu_root"
       action="ssgjose.hiring_company_action_window" />
 
     <menuitem name="Projects" id="ssgjose.project_menu"
-      parent="ssgjose.menu_root" 
-      action="ssgjose.action_menu_project" />
+      parent="ssgjose.menu_root"
+      action="action_menu_proyectos" />
 
-      <menuitem name="Tasks" id="ssgjose.tasks_menu"
-      parent="ssgjose.menu_root" 
+    <menuitem name="Tasks" id="ssgjose.tasks_menu"
+      parent="ssgjose.menu_root"
       action="ssgjose.action_menu_tasks" />
   </data>
 </odoo>

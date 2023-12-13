@@ -1,6 +1,6 @@
 .o_main_navbar {
-    color: rgb(0, 0, 0);
-    background-color: rgb(67, 84, 242);
+    color: white;
+    background-color: gray;
 
     > .o_menu_brand {
         color: rgb(0, 0, 0);
@@ -11,7 +11,7 @@
         > li {
 
             > a, > label {
-                color: rgb(0, 0, 0);
+                color: white;
             }
 
             &.o_extra_menu_items {
@@ -19,7 +19,7 @@
 
                     > li {
                         > a {
-                            color: rgb(0, 0, 0); //
+                            color: white; //
                             // background-color: rgb(170, 196, 111); //
                         }
                     }
@@ -29,6 +29,6 @@
     }
 
     .dropdown-menu.show{
-        background-color: rgb(67, 159, 215);
+        background-color: black;
     }
 }
