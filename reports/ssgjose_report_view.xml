@@ -70,7 +70,7 @@
                   </td>
                   <td width="300" align="center">
                     <font size="5">
-                      <b>Comapny size</b>
+                      <b>Company size</b>
                     </font>
                   </td>
                 </tr>
@@ -95,20 +95,6 @@
                 </tr>
               </tbody>
               <br />
-              <!-- <tbody>
-                <tr class="tr1" t-foreach='o.project' t-as='line'
-                  align="center">
-                  <td class="td1" width="300">
-                    <span t-esc="line.display_name" />
-                  </td>
-                  <td class="td1" width="300" align="center">
-                    <span t-esc="line.date_start" />
-                  </td>
-                  <td class="td1" width="300" align="center">
-                    <span t-esc="line.date" />
-                  </td>
-                </tr>
-              </tbody> -->
             </table>
           </t>
         </div>

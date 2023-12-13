@@ -2,8 +2,8 @@
 # from odoo import http
 
 
-# class Proyectojoel(http.Controller):
-#     @http.route('/proyectojoel/proyectojoel', auth='public')
+# class ssgjose(http.Controller):
+#     @http.route('/ssgjose/ssgjose', auth='public')
 #     def index(self, **kw):
 #         return "Hello, world"
 

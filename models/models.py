@@ -9,7 +9,7 @@ class ssgjose_empresas_contratadoras(models.Model):
      name = fields.Char(string="Company")
      email = fields.Char(string="Email")
      phone = fields.Integer(string="Phone")
-     project = fields.One2many("project.project","comapny",string="Projects")
+     project = fields.One2many("project.project","company",string="Projects")
      employees = fields.Integer(string="Employees")
      company_size = fields.Char(string="Company size",compute="_companysize",store=True)
 
