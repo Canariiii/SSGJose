@@ -11,7 +11,6 @@
           <field name="email" />
           <field name="phone" />
           <field name="employees" />
-          <field name="company_size" groups="ssgjose.admin, ssgjose.project_boss, ssgjose.analist" />
         </tree>
       </field>
     </record>
@@ -26,7 +25,6 @@
             <field name="email" />
             <field name="phone" />
             <field name="employees" />
-            <field name="company_size" groups="ssgjose.admin, ssgjose.project_boss, ssgjose.analist" />
             <field name="project" />
           </group>
         </form>

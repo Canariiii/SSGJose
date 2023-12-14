@@ -43,7 +43,6 @@
               </tr>
             </table>
             <br />
-
             
             <table class="table1">
               <thead>
@@ -68,11 +67,6 @@
                       <b>Employees</b>
                     </font>
                   </td>
-                  <td width="300" align="center">
-                    <font size="5">
-                      <b>Company size</b>
-                    </font>
-                  </td>
                 </tr>
               </thead>
               <tbody>
@@ -89,9 +83,7 @@
                   <td class="td1" width="300" align="center">
                     <span t-esc="o.employees" />
                   </td>
-                  <td class="td1" width="300" align="center">
-                    <span t-esc="o.company_size" />
-                  </td>
+                 
                 </tr>
               </tbody>
               <br />
